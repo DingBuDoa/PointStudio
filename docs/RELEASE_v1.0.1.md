@@ -12,13 +12,13 @@ Windows x64 便携版 · 构建日期 **2026-10-24**
 
 - `PointStudio-1.0.1-windows-x64.zip.001`
 - `PointStudio-1.0.1-windows-x64.zip.002`
-- `Merge-PointStudio.ps1`
+- `Merge-PointStudio.bat`
 - `SHA256SUMS.txt`
 
-在该目录的 PowerShell 中运行：
+双击 **Merge-PointStudio.bat**，或在终端运行：
 
 ```powershell
-powershell -NoProfile -File .\Merge-PointStudio.ps1
+.\Merge-PointStudio.bat
 ```
 
 校验并合并完成后，解压生成的 `PointStudio-1.0.1-windows-x64.zip`，双击 **Start.bat**。分卷是同一个 ZIP 的连续部分，不能单独解压。

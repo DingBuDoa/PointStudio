@@ -25,10 +25,10 @@ Windows 桌面工具 · PySide6 / Qt 6 · **v1.0.1** · 2026-10-24
 
 普通用户请下载 **v1.0.1 Windows x64 便携发行包**。GitHub 的 **Code → Download ZIP** 是源码，未附带 Python、CUDA 与求解器运行文件。
 
-分卷发行包需要同时下载 `.zip.001`、`.zip.002`、`Merge-PointStudio.ps1` 和 `SHA256SUMS.txt` 到同一个文件夹。在 PowerShell 中运行：
+分卷发行包需要同时下载 `.zip.001`、`.zip.002`、`Merge-PointStudio.bat` 和 `SHA256SUMS.txt` 到同一个文件夹。双击 **Merge-PointStudio.bat**，或在终端运行：
 
 ```powershell
-powershell -NoProfile -File .\Merge-PointStudio.ps1
+.\Merge-PointStudio.bat
 ```
 
 脚本先检查分卷 SHA-256，再合并为完整 ZIP。解压合并后的 ZIP，将整个目录放到可写位置，双击 **Start.bat**。
