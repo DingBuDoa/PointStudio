@@ -1,0 +1,40 @@
+# Local settings, media, results and diagnostics
+/config/*
+!/config/runtime-manifest.json
+!/config/runtime-requirements.txt
+/logs/
+/output/
+/outputs/
+/backups/
+/tests/artifacts/*
+!/tests/artifacts/.gitkeep
+
+# Keep the locally adapted FastMap source, exclude binary runtimes
+/runtime/*
+!/runtime/fastmap/
+/PointStudio-*/
+/release-assets/
+
+# Generated files
+__pycache__/
+*.py[cod]
+*.pyd
+*.dll
+*.exe
+*.log
+*.blend*
+*.db
+*.zip
+*.7z
+*.001
+*.002
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+.env
+.env.*
